@@ -1,0 +1,2 @@
+CDTDATASTORE_OTHER_CFLAGS = $(inherited) -DENCRYPT_DATABASE
+CDTDATASTORE_OTHER_LDFLAGS = -l"z" -framework "SystemConfiguration"

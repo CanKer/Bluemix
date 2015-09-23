@@ -1,0 +1,2 @@
+IMFGOOGLEAUTHENTICATION_FRAMEWORK_SEARCH_PATHS = "${PODS_ROOT}/google-plus-ios-sdk/google-plus-ios-sdk-1.7.1/" "$(PODS_ROOT)/IMFCore/Frameworks"
+IMFGOOGLEAUTHENTICATION_OTHER_LDFLAGS = -l"stdc++.6" -l"z"

@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+workspace 'BlueList'
+pod 'IMFCore'
+pod 'IMFPush'
+pod 'IMFGoogleAuthentication'
+pod 'IMFFacebookAuthentication'
+pod 'IMFData/SQLCipher', '1.1.1'

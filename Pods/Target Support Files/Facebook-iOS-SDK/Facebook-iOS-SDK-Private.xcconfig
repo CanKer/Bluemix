@@ -1,0 +1,6 @@
+#include "Facebook-iOS-SDK.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Private/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/CDTDatastore" "${PODS_ROOT}/Headers/Public/CloudantToolkit" "${PODS_ROOT}/Headers/Public/CloudantToolkit/CloudantToolkit" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/Public/IMFCore" "${PODS_ROOT}/Headers/Public/IMFCore/IMFCore" "${PODS_ROOT}/Headers/Public/IMFData" "${PODS_ROOT}/Headers/Public/IMFData/IMFData" "${PODS_ROOT}/Headers/Public/IMFFacebookAuthentication" "${PODS_ROOT}/Headers/Public/IMFGoogleAuthentication" "${PODS_ROOT}/Headers/Public/IMFPush" "${PODS_ROOT}/Headers/Public/IMFPush/IMFPush" "${PODS_ROOT}/Headers/Public/SQLCipher" "${PODS_ROOT}/Headers/Public/google-plus-ios-sdk" "${PODS_ROOT}/Headers/Public/google-plus-ios-sdk/GoogleOpenSource" "${PODS_ROOT}/Headers/Public/google-plus-ios-sdk/GooglePlus"
+OTHER_LDFLAGS = ${FACEBOOK_IOS_SDK_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
