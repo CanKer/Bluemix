@@ -21,6 +21,8 @@
 		0BB6C22A1A3B5A0900BB7D1F /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6C2261A3B5A0900BB7D1F /* medium.png */; };
 		0BB6C22F1A3B5A2900BB7D1F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6C22C1A3B5A2900BB7D1F /* TableViewController.m */; };
 		0BB6C2301A3B5A2900BB7D1F /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6C22E1A3B5A2900BB7D1F /* TodoItem.m */; };
+		518196BD1BB3A86200E3A4C3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		518196C01BB3A89400E3A4C3 /* Principal.m in Sources */ = {isa = PBXBuildFile; fileRef = 518196BF1BB3A89400E3A4C3 /* Principal.m */; settings = {ASSET_TAGS = (); }; };
 		7F5B78D51A7E894E00516F59 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B78D41A7E894E00516F59 /* AuthenticationViewController.m */; };
 		7FB2E9501A7EABF3006EAE71 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2E94F1A7EABF3006EAE71 /* PushViewController.m */; };
 		8BFF6532BF3FDAEDCBA4DED5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C08B353A5DAAA323AC1F1D /* libPods.a */; };
@@ -62,6 +64,10 @@
 		0BB6C22E1A3B5A2900BB7D1F /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 		0BB6C2351A3B68CD00BB7D1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		13C08B353A5DAAA323AC1F1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		518196BB1BB3A86200E3A4C3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		518196BE1BB3A89400E3A4C3 /* Principal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Principal.h; sourceTree = "<group>"; };
+		518196BF1BB3A89400E3A4C3 /* Principal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Principal.m; sourceTree = "<group>"; };
 		7F5B78D41A7E894E00516F59 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
 		7F5B78D61A7E896E00516F59 /* AuthenticationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
 		7FB2E94F1A7EABF3006EAE71 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
@@ -119,9 +125,13 @@
 				0BB6C1FC1A3B518600BB7D1F /* AppDelegate.h */,
 				0BB6C1FD1A3B518600BB7D1F /* AppDelegate.m */,
 				0BB6C2021A3B518700BB7D1F /* Main.storyboard */,
+				518196BB1BB3A86200E3A4C3 /* SWRevealViewController.h */,
+				518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */,
 				0BB6C2051A3B518700BB7D1F /* Images.xcassets */,
 				0BB6C2071A3B518700BB7D1F /* LaunchScreen.xib */,
 				0BB6C1F81A3B518600BB7D1F /* Supporting Files */,
+				518196BE1BB3A89400E3A4C3 /* Principal.h */,
+				518196BF1BB3A89400E3A4C3 /* Principal.m */,
 			);
 			path = "bluelist-objective-c";
 			sourceTree = "<group>";
@@ -361,6 +371,8 @@
 				0BB6C2221A3B59EF00BB7D1F /* CustomAuth.m in Sources */,
 				0BB6C1FE1A3B518600BB7D1F /* AppDelegate.m in Sources */,
 				0BB6C22F1A3B5A2900BB7D1F /* TableViewController.m in Sources */,
+				518196BD1BB3A86200E3A4C3 /* SWRevealViewController.m in Sources */,
+				518196C01BB3A89400E3A4C3 /* Principal.m in Sources */,
 				0BB6C2301A3B5A2900BB7D1F /* TodoItem.m in Sources */,
 				7F5B78D51A7E894E00516F59 /* AuthenticationViewController.m in Sources */,
 				7FB2E9501A7EABF3006EAE71 /* PushViewController.m in Sources */,

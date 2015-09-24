@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20658C7D71003190E9817E72F30C1F9C56BA46BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "454DCEF3785F299D0EC9B8BCB8E36548CE756D75" : 0,
+    "20658C7D71003190E9817E72F30C1F9C56BA46BD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D230EF52-2017-4A3F-842A-FB5EB590F630",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "454DCEF3785F299D0EC9B8BCB8E36548CE756D75" : "",
+    "20658C7D71003190E9817E72F30C1F9C56BA46BD" : "bluelist-objective-c\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlueList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BlueList.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CanKer\/Bluemix.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20658C7D71003190E9817E72F30C1F9C56BA46BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/hub.jazz.net\/git\/mobilecloud\/imf-bluelist",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "454DCEF3785F299D0EC9B8BCB8E36548CE756D75"
+    }
+  ]
+}
