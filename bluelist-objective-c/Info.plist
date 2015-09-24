@@ -25,7 +25,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb 1647446428865368</string>
+				<string></string>
 			</array>
 		</dict>
 		<dict>
@@ -44,9 +44,9 @@
 	<key>CustomAuthenticationRealm</key>
 	<string></string>
 	<key>FacebookAppID</key>
-	<string>1647446428865368</string>
+	<string></string>
 	<key>FacebookDisplayName</key>
-	<string>iBanorte</string>
+	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbauth</string>

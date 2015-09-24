@@ -21,6 +21,8 @@
 		0BB6C22A1A3B5A0900BB7D1F /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6C2261A3B5A0900BB7D1F /* medium.png */; };
 		0BB6C22F1A3B5A2900BB7D1F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6C22C1A3B5A2900BB7D1F /* TableViewController.m */; };
 		0BB6C2301A3B5A2900BB7D1F /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6C22E1A3B5A2900BB7D1F /* TodoItem.m */; };
+		515F57DE1BB363A7004D5124 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F57DD1BB363A7004D5124 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		515F57E71BB3705E004D5124 /* Principal.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F57E61BB3705E004D5124 /* Principal.m */; settings = {ASSET_TAGS = (); }; };
 		7F5B78D51A7E894E00516F59 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B78D41A7E894E00516F59 /* AuthenticationViewController.m */; };
 		7FB2E9501A7EABF3006EAE71 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2E94F1A7EABF3006EAE71 /* PushViewController.m */; };
 		8BFF6532BF3FDAEDCBA4DED5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C08B353A5DAAA323AC1F1D /* libPods.a */; };
@@ -62,6 +64,11 @@
 		0BB6C22E1A3B5A2900BB7D1F /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 		0BB6C2351A3B68CD00BB7D1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		13C08B353A5DAAA323AC1F1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F57DC1BB363A7004D5124 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		515F57DD1BB363A7004D5124 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		515F57DF1BB365AE004D5124 /* bluelist-objective-c-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluelist-objective-c-Bridging-Header.h"; sourceTree = "<group>"; };
+		515F57E51BB3705E004D5124 /* Principal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Principal.h; sourceTree = "<group>"; };
+		515F57E61BB3705E004D5124 /* Principal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Principal.m; sourceTree = "<group>"; };
 		7F5B78D41A7E894E00516F59 /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
 		7F5B78D61A7E896E00516F59 /* AuthenticationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
 		7FB2E94F1A7EABF3006EAE71 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
@@ -112,15 +119,20 @@
 		0BB6C1F71A3B518600BB7D1F /* bluelist-objective-c */ = {
 			isa = PBXGroup;
 			children = (
+				0BB6C1FC1A3B518600BB7D1F /* AppDelegate.h */,
+				515F57DF1BB365AE004D5124 /* bluelist-objective-c-Bridging-Header.h */,
+				515F57E51BB3705E004D5124 /* Principal.h */,
+				515F57E61BB3705E004D5124 /* Principal.m */,
+				515F57DC1BB363A7004D5124 /* SWRevealViewController.h */,
+				0BB6C1FD1A3B518600BB7D1F /* AppDelegate.m */,
+				515F57DD1BB363A7004D5124 /* SWRevealViewController.m */,
+				0BB6C2051A3B518700BB7D1F /* Images.xcassets */,
 				0BB6C2311A3B5BBF00BB7D1F /* authentication */,
-				0BB6C2321A3B5BCB00BB7D1F /* model */,
 				0BB6C2331A3B5BD800BB7D1F /* controller */,
 				0BB6C2341A3B5BF400BB7D1F /* images */,
-				0BB6C1FC1A3B518600BB7D1F /* AppDelegate.h */,
-				0BB6C1FD1A3B518600BB7D1F /* AppDelegate.m */,
-				0BB6C2021A3B518700BB7D1F /* Main.storyboard */,
-				0BB6C2051A3B518700BB7D1F /* Images.xcassets */,
 				0BB6C2071A3B518700BB7D1F /* LaunchScreen.xib */,
+				0BB6C2021A3B518700BB7D1F /* Main.storyboard */,
+				0BB6C2321A3B5BCB00BB7D1F /* model */,
 				0BB6C1F81A3B518600BB7D1F /* Supporting Files */,
 			);
 			path = "bluelist-objective-c";
@@ -258,6 +270,7 @@
 		0BB6C1ED1A3B518600BB7D1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
@@ -361,6 +374,8 @@
 				0BB6C2221A3B59EF00BB7D1F /* CustomAuth.m in Sources */,
 				0BB6C1FE1A3B518600BB7D1F /* AppDelegate.m in Sources */,
 				0BB6C22F1A3B5A2900BB7D1F /* TableViewController.m in Sources */,
+				515F57DE1BB363A7004D5124 /* SWRevealViewController.m in Sources */,
+				515F57E71BB3705E004D5124 /* Principal.m in Sources */,
 				0BB6C2301A3B5A2900BB7D1F /* TodoItem.m in Sources */,
 				7F5B78D51A7E894E00516F59 /* AuthenticationViewController.m in Sources */,
 				7FB2E9501A7EABF3006EAE71 /* PushViewController.m in Sources */,
@@ -489,6 +504,7 @@
 			baseConfigurationReference = 03C4265774299B67BE309809 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "bluelist-objective-c/Info.plist";
@@ -496,6 +512,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = omid2999.iBanorte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "bluelist-objective-c/bluelist-objective-c-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -504,6 +522,7 @@
 			baseConfigurationReference = F5DDFD4173E8585DD8F66433 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "bluelist-objective-c/Info.plist";
@@ -511,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = omid2999.iBanorte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "bluelist-objective-c/bluelist-objective-c-Bridging-Header.h";
 			};
 			name = Release;
 		};
