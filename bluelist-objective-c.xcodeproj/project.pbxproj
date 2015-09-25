@@ -64,6 +64,7 @@
 		0BB6C22E1A3B5A2900BB7D1F /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
 		0BB6C2351A3B68CD00BB7D1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		13C08B353A5DAAA323AC1F1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		517212F71BB407EF002F1A53 /* bluelist-objective-c-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluelist-objective-c-Bridging-Header.h"; sourceTree = "<group>"; };
 		518196BB1BB3A86200E3A4C3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		518196BE1BB3A89400E3A4C3 /* Principal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Principal.h; sourceTree = "<group>"; };
@@ -118,20 +119,21 @@
 		0BB6C1F71A3B518600BB7D1F /* bluelist-objective-c */ = {
 			isa = PBXGroup;
 			children = (
-				0BB6C2311A3B5BBF00BB7D1F /* authentication */,
-				0BB6C2321A3B5BCB00BB7D1F /* model */,
-				0BB6C2331A3B5BD800BB7D1F /* controller */,
-				0BB6C2341A3B5BF400BB7D1F /* images */,
 				0BB6C1FC1A3B518600BB7D1F /* AppDelegate.h */,
 				0BB6C1FD1A3B518600BB7D1F /* AppDelegate.m */,
-				0BB6C2021A3B518700BB7D1F /* Main.storyboard */,
-				518196BB1BB3A86200E3A4C3 /* SWRevealViewController.h */,
-				518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */,
+				0BB6C2311A3B5BBF00BB7D1F /* authentication */,
+				517212F71BB407EF002F1A53 /* bluelist-objective-c-Bridging-Header.h */,
+				0BB6C2331A3B5BD800BB7D1F /* controller */,
+				0BB6C2341A3B5BF400BB7D1F /* images */,
 				0BB6C2051A3B518700BB7D1F /* Images.xcassets */,
 				0BB6C2071A3B518700BB7D1F /* LaunchScreen.xib */,
-				0BB6C1F81A3B518600BB7D1F /* Supporting Files */,
+				0BB6C2021A3B518700BB7D1F /* Main.storyboard */,
+				0BB6C2321A3B5BCB00BB7D1F /* model */,
 				518196BE1BB3A89400E3A4C3 /* Principal.h */,
 				518196BF1BB3A89400E3A4C3 /* Principal.m */,
+				0BB6C1F81A3B518600BB7D1F /* Supporting Files */,
+				518196BB1BB3A86200E3A4C3 /* SWRevealViewController.h */,
+				518196BC1BB3A86200E3A4C3 /* SWRevealViewController.m */,
 			);
 			path = "bluelist-objective-c";
 			sourceTree = "<group>";
@@ -268,6 +270,7 @@
 		0BB6C1ED1A3B518600BB7D1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
@@ -501,6 +504,7 @@
 			baseConfigurationReference = 03C4265774299B67BE309809 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "bluelist-objective-c/Info.plist";
@@ -508,6 +512,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = omid2999.iBanorte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "bluelist-objective-c/bluelist-objective-c-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -516,6 +522,7 @@
 			baseConfigurationReference = F5DDFD4173E8585DD8F66433 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "bluelist-objective-c/Info.plist";
@@ -523,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = omid2999.iBanorte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "bluelist-objective-c/bluelist-objective-c-Bridging-Header.h";
 			};
 			name = Release;
 		};

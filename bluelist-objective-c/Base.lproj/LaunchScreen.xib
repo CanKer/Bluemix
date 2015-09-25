@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A262e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -12,18 +13,21 @@
             <subviews>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2014 IBM. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
                     <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluemix_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="e0Y-Nz-CDQ">
                     <rect key="frame" x="120" y="125" width="240" height="128"/>
+                    <animations/>
                     <constraints>
                         <constraint firstAttribute="width" constant="240" id="gaC-r2-vpl"/>
                         <constraint firstAttribute="height" constant="128" id="qfq-m4-wDp"/>
                     </constraints>
                 </imageView>
             </subviews>
+            <animations/>
             <color key="backgroundColor" red="0.0" green="0.3921568627" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="e0Y-Nz-CDQ" firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="0wA-Tp-oDz"/>
